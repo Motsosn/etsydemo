@@ -42,6 +42,6 @@ Rails.application.configure do
   # Paperclip config:
   Paperclip.options[:command_path] = "C:/Program Files/ImageMagick-6.9.2-Q16"
 
-  config.serve_static_assets = true
-  #config.serve_static_files = true
+  #config.serve_static_assets = true
+  config.serve_static_files = true
 end
